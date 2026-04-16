@@ -139,16 +139,6 @@ php artisan serve
 - Uploaded images and media are stored using Laravel public storage.
 - The project is mainly **server-rendered** with Blade templates.
 
-## Suggested Screenshots
-
-You can add screenshots for:
-
-- Home page
-- Doctors page
-- Booking page
-- Patient dashboard
-- Doctor dashboard
-- Admin dashboard
 
 ## Future Improvements
 
