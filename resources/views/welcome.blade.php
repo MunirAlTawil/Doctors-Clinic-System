@@ -4,8 +4,8 @@
 
 @section('content')
     @php
-        $specCount = isset($specialties) ? collect($specialties)->count() : 0;
-        $docCount = isset($doctors) ? collect($doctors)->count() : 0;
+        $specCount = isset($specialties) ? $specialties->count() : 0;
+        $docCount = isset($doctors) ? $doctors->count() : 0;
     @endphp
 
     <section class="ui-hero-skew relative pb-12 pt-10 sm:pb-16 sm:pt-14 lg:pb-24 lg:pt-20">
@@ -183,4 +183,3 @@
         </div>
     </section>
 @endsection
-
